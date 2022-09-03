@@ -1,0 +1,252 @@
+{
+  "primaryEmails":[
+    {
+      "subject":"primary1",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary2",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary3",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary4",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary5",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary6",
+      "description":"This is a primary description"
+    },{
+      "subject":"primary7",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary8",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary9",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary10",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary11",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary12",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary13",
+      "description":"This is a primary description"
+    },{
+      "subject":"primary14",
+      "description":"This is a primary description"
+    },{
+      "subject":"primary15",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary16",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary17",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary18",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary19",
+      "description":"This is a primary description"
+    },
+    {
+      "subject":"primary20",
+      "description":"This is a primary description"
+    },{
+      "subject":"primary21",
+      "description":"This is a primary description"
+    }
+  ],
+  "promotionsEmails":[
+    {
+      "subject":"Uber",
+      "description":"A, Try using Uber for your errands"
+    },
+     {
+      "subject":"promotion1",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion2",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion3",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion4",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion5",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion6",
+      "description":"This is a promotion description"
+    },{
+      "subject":"promotion7",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion8",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion9",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion10",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion11",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion12",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion13",
+      "description":"This is a promotion description"
+    },{
+      "subject":"promotion14",
+      "description":"This is a promotion description"
+    },{
+      "subject":"promotion15",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion16",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion17",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion18",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion19",
+      "description":"This is a promotion description"
+    },
+    {
+      "subject":"promotion20",
+      "description":"This is a promotion description"
+    },{
+      "subject":"promotion21",
+      "description":"This is a promotion description"
+    }
+  ],
+  "socialEmails":[
+    {
+      "subject":"social1",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social2",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social3",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social4",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social5",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social6",
+      "description":"This is a social description"
+    },{
+      "subject":"social7",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social8",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social9",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social10",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social11",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social12",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social13",
+      "description":"This is a social description"
+    },{
+      "subject":"social14",
+      "description":"This is a social description"
+    },{
+      "subject":"social15",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social16",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social17",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social18",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social19",
+      "description":"This is a social description"
+    },
+    {
+      "subject":"social20",
+      "description":"This is a social description"
+    },{
+      "subject":"social21",
+      "description":"This is a social description"
+    }
+  ]
+}

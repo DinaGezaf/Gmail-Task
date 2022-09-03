@@ -1,0 +1,33 @@
+<p-table  #dt [value]="emails" [rows]="8" [paginator]="true"
+  [globalFilterFields]="['subject','description']" responsiveLayout="scroll"
+  [rowHover]="true"
+  currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [showCurrentPageReport]="true">
+  <ng-template pTemplate="body" let-email >
+    <tr >
+      <td style="width: 3rem"><p-tableCheckbox [value]="email"></p-tableCheckbox></td>
+      <td style="width: 3rem">
+           <mat-button-toggle mat-icon-button aria-label="star" #star (click)="stared(star)">
+             <i class="pi pi-star"></i>
+           </mat-button-toggle>
+      </td>
+      <td>{{email.subject}}</td>
+      <td>{{email.description}}</td>
+      <td style="width: 3rem">
+        <mat-button-toggle value="pi-envelope"aria-label="makeasread" #makeasread (click)="makeAsRead(makeasread)"  >
+          <i [class]="['pi',makeasread.value ]"></i>
+        </mat-button-toggle>
+      </td>
+      <td style="width: 3rem">
+        <mat-button-toggle mat-icon-button aria-label="delete" #delete (click)="deletePrimary(email)">
+          <i class="pi pi-trash"></i>
+        </mat-button-toggle>
+      </td>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="summary">
+    <div class="flex align-items-center justify-content-between">
+      In total there are {{emails ? emails.length : 0 }} emails.
+    </div>
+  </ng-template>
+</p-table>
+<p-confirmDialog [style]="{width: '450px'}"></p-confirmDialog>

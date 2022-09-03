@@ -1,0 +1,27 @@
+<mat-sidenav-container class="app-sidenav-container " >
+  <mat-sidenav #sidenav class="app-sidenav mat-elevation-z10" [opened]="!isScreenSmall"
+    [mode]="isScreenSmall ? 'over' : 'side'">
+    <mat-toolbar color="primary">
+      Menu
+    </mat-toolbar>
+    <mat-nav-list>
+      <mat-list-item><a matLine><i class="pi pi-inbox"></i>  Inbox</a></mat-list-item>
+      <mat-list-item><a matLine><i class="pi pi-star"></i>  Starred </a></mat-list-item>
+      <mat-list-item><a matLine><i class="pi pi-history"></i>  Snoozed </a></mat-list-item>
+      <mat-list-item><a matLine><i class="pi pi-bookmark"></i>  Important </a></mat-list-item>
+      <mat-list-item><a matLine><i class="pi pi-send"></i>  Sent </a></mat-list-item>
+      <mat-list-item><a matLine><i class="pi pi-file"></i>  Draft </a></mat-list-item>
+    <p-tree [value]="treeData"></p-tree>
+      <mat-list-item><a matLine><i class="pi pi-chevron-down"></i> More </a></mat-list-item>
+  </mat-nav-list>
+  </mat-sidenav>
+
+  <div class="app-sidenav-content">
+    <app-toolbar (toggleSidenav)="sidenav.toggle()"></app-toolbar>
+    <div class="wrapper">
+      <app-home></app-home>
+    </div>
+  </div>
+
+</mat-sidenav-container>
+
