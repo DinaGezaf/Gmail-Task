@@ -19,21 +19,9 @@ export class DataService {
     return this._emails.asObservable();
   }
 
-  loadAll() {
-    const emailsUrl = 'https://angular-material-api.azurewebsites.net/users';
-    return this.http.get<Email[]>(emailsUrl).subscribe(
-      (data) => {
-        this.dataStore.emails = data;
-        this._emails.next(Object.assign({}, this.dataStore).emails);
-      },
-      (error) => {
-        console.log('Failed to fetch emails');
-      }
-    );
-  }
   getPrimaryEmails() {
     return this.http
-      .get<Email>('assets/primary.json')
+      .get<Email>('assets/data.json')
       .toPromise()
       .then((res: any) => <Email[]>res.primaryEmails)
       .then((data) => {

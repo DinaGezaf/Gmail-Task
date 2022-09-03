@@ -15,7 +15,6 @@ import { FormsModule } from '@angular/forms';
 import { PrimaryComponent } from './primary/primary.component';
 import { PromotionsComponent } from './promotions/promotions.component';
 import { SocialComponent } from './social/social.component';
-import { IconsModule } from './shared/icons.module';
 
 @NgModule({
   declarations: [
@@ -35,7 +34,6 @@ import { IconsModule } from './shared/icons.module';
     MaterialModule,
     HttpClientModule,
     FormsModule,
-    IconsModule,
   ],
   providers: [DataService],
   bootstrap: [AppComponent],
